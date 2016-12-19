@@ -1,7 +1,13 @@
 class Pupilo{
-	constuctor(){
-		this.test = "Ok do your thing";
-	}
+	constructor (name, lvl, potential) {
+        this.name = name
+        this.lvl = lvl
+        this.potential = potential
+    }
+  
+    reduce () {
+		this.lvl -= 5;
+    }
 }
 
 export default Pupilo;
