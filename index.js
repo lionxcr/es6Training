@@ -5,10 +5,10 @@ import fs from 'fs';
     try{
         const port = 8080;
         const app = express();
-        const data = JSON.parse(fs.readFileSync('file', 'utf8'));
-        console.log(data);
-        app.use('/' (req, res) => {
-        	res.render('hello world');
+        const data = JSON.parse(fs.readFileSync('./data.json', 'utf8'));
+        app.listen(port);
+        app.use('/', (req, res) => {
+        	res.send(data);
         });
 
     }catch(e){
