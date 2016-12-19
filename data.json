@@ -1,0 +1,11 @@
+{
+	"masters": [
+		{"name":"Paul", "lvl": 9000, "ninja": true, "active": true}
+	],
+	"pupilos":[
+		{"name":"Migue", "lvl": 600},
+		{"name":"Ade", "lvl": 600},
+		{"name":"Josue", "lvl": 600},
+		{"name":"Leo", "lvl": 600}
+	]
+}
