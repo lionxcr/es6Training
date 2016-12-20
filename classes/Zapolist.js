@@ -1,6 +1,6 @@
 import Pupilo from './Pupilo.js';
 
-class Zapolist extends Pupilo{
+class ZapoList extends Pupilo{
   constructor( name, lvl, potential ){
       super(name, lvl, potential);
       this.bonusPoints = -100;
@@ -16,4 +16,4 @@ class Zapolist extends Pupilo{
   }
 }
 
-export default Zapolist;
+export default ZapoList;

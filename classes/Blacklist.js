@@ -16,4 +16,4 @@ class BlackList extends Pupilo{
   }
 }
 
-export default Blacklist;
+export default BlackList;
